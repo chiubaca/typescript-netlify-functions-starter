@@ -16,4 +16,5 @@ Read the Netlify docs further information about [Netlify Functions](https://docs
 ## Deploy to your own Netlify account
 
 Just click here! 👇
+
 ✨[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/chiubaca/typescript-netlify-functions-starter)✨
