@@ -9,9 +9,9 @@ Then run `netlify dev` which will open a page with some links to some prebuilt N
 
 ## Further Development 👩‍💻👨‍💻
 
-Extend or add your own netlify functions by creating a new `.ts` file in the `./functions` folder. Remember to run `npm run build` after change (sorry no fancy auto-reload).
+Extend or add your own netlify functions by creating a new `.ts` file in the `./functions` folder. Remember to run `npm run build` after each change (sorry no fancy auto-reload).
 
-Read the Netlify docs further information about [Netlify Functions](https://docs.netlify.com/functions/build-with-javascript/#format).
+Read the Netlify docs for further information about [Netlify Functions](https://docs.netlify.com/functions/build-with-javascript/#format).
 
 ## Deploy to your own Netlify account 🚀
 
