@@ -1,6 +1,3 @@
-/**
- * Main entry point for journal endpoint.
- */
 import { APIGatewayProxyEvent, APIGatewayProxyCallback } from "aws-lambda";
 
 export const handler = async function (
