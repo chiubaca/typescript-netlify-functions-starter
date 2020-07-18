@@ -2,7 +2,7 @@
   "name": "typescript-netlify-functions-starter",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "static/index.js",
   "scripts": {
     "build": "tsc"
   },
