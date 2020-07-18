@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/kognise/water.css@latest/dist/light.min.css">
+  <title>TypeScript Netlify Function Examples</title>
+</head>
+<body>
+  <h1>TypeScript Netlify Function Examples</h1>
+  <h2>  <code> GET /hello?name=&ltstring&gt </code> </h2>
+  <a id="hello"></a> <br>
+  <a id="hello-query"></a>
+
+</body>
+</html>
+
+<script>
+
+  const hello = document.getElementById("hello")
+  const helloEndpoint = document.baseURI + ".netlify/functions/hello"
+  hello.innerText = helloEndpoint
+  hello.href = helloEndpoint
+
+  const helloQuery = document.getElementById("hello-query")
+  const helloQueryEndpoint = document.baseURI + ".netlify/functions/hello?name=Bob"
+  helloQuery.innerText = helloQueryEndpoint
+  helloQuery.href = helloQueryEndpoint
+
+
+
+</script>

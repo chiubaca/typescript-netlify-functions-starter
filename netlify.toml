@@ -1,0 +1,7 @@
+[build]
+  command = "npm run build"
+  functions = "functions/built/" # netlify dev uses this to know where to scaffold and serve your functions
+  publish = "dist"
+
+[dev]
+  publish = "static"
